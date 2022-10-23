@@ -4,8 +4,8 @@ use JetBrains\PhpStorm\Language;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
+require './phpmailer/src/Exception.php';
+require './phpmailer/src/PHPMailer.php';
 
 $mail = new PHPMailer(true);
 $mail->CharSet = 'UTF-8';
@@ -17,7 +17,7 @@ $mail->setFrom('hack81644@gmail.com', 'АСУшники из МАДИ');
 //Кому отправить
 $mail->addAddress('andrewop66@mail.ru');
 //Тема письма
-$mail->Subject = 'Привет! Это АСУшники из МАДИ';
+$mail->Subject = 'Привет! Это новое письмо с сайта SmartEye';
 
 //Тело письма
 $body = '<h1>Встречайте супер письмо!</h1>';
