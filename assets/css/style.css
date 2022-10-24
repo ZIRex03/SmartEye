@@ -596,7 +596,7 @@ h1.proj__text::after{
     transform: rotate(180deg)
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:420px){
 
     .logo {
         
@@ -773,7 +773,7 @@ h1.proj__text::after{
     .cons-form {
         opacity: 0;
         position: absolute;
-        margin-left: 50px;
+        margin-left: 30px;
         width: 290px;
         height: 180px;
         margin-top: 300px;
@@ -787,7 +787,7 @@ h1.proj__text::after{
     .zakaz-form {
         opacity: 0;
         position: absolute;
-        margin-left: 50px;
+        margin-left: 30px;
         width: 290px;
         height: 180px;
         margin-top: 300px;
