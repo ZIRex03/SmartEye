@@ -48,7 +48,8 @@ h6 {
     display: flex;
     flex-direction: column;
 
-    background: url("../images/back2.png") center repeat-y;
+    /* background: url("../images/back2.png") center repeat-y; */
+    background-color: black;
     -webkit-background-size: cover;
     background-size: 100%;
 
@@ -193,6 +194,7 @@ h6 {
     right: 0;
 
     z-index: 1000;
+     background-color: #262626;;
 
 }
 
@@ -256,9 +258,8 @@ h6 {
     display: flex;
     flex-direction: column;
 
-    background: url("../images/osnov_in.jpg") center repeat-x;
-    -webkit-background-size: cover;
-    background-size: 100%;
+    /* background: url("../images/osnov_in.jpg") center no-repeat; */
+    background-color: black;
     justify-content: space-between;
 }
 
@@ -282,7 +283,22 @@ h6 {
     box-shadow: 0px 10px 20px 0px orange;
 }
 
+.project_innerposl {
+    margin-top: 20px;
+    padding: 70px, 15px;
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: black;
+    box-shadow: 0px 10px 20px 0px orange;
+}
+
 .but_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 15px;
     margin-top: 2px;
@@ -295,6 +311,8 @@ h6 {
 }
 
 .but2_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 15px;
     margin-top: 2px;
@@ -308,6 +326,8 @@ h6 {
 }
 
 .but3_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 7px;
     margin-top: 2px;
@@ -320,6 +340,8 @@ h6 {
 }
 
 .but4_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 15px;
     margin-top: 2px;
@@ -341,6 +363,8 @@ h6 {
 }
 
 .but5_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 15px;
     margin-top: 5px;
@@ -353,6 +377,8 @@ h6 {
 }
 
 .but6_img {
+    width: 98px;
+    height: 98px;
     display: inline-block;
     margin-left: 15px;
     margin-top: 4px;
@@ -369,9 +395,7 @@ h6 {
     width: 100%;
     height: 70vh;
     display: flex;
-    background: url("../images/osnov_in.jpg") center repeat-x;
-    -webkit-background-size: cover;
-    background-size: 100%;
+    background-color: black;
 }
 
 .d1 {
@@ -494,17 +518,27 @@ h6 {
     height: 100vh;
     display: flex;
 
-    background: url("../images/osnov_in.jpg") center repeat-x;
-    -webkit-background-size: cover;
-    background-size: 100%;
+    /* background: url("../images/osnov_in.jpg") center repeat-x; */
+    background-color: black;
 }
 
 button {
+    
     position: absolute;
     margin-top: 170px;
     margin-left: 650px;
     cursor: pointer;
     background: black;
+}
+
+.vlevo__button{
+    width: 50px;
+    height: 50px;
+}
+
+.vpravo__button{
+    width: 50px;
+    height: 50px;
 }
 
 .zakaz-form {
@@ -561,3 +595,244 @@ h1.proj__text::after{
 .vlevo__button{
     transform: rotate(180deg)
 }
+
+@media screen and (max-width:420px){
+
+    .logo {
+        
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .intro__title {
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 280px;
+        text-align: left;
+        color: white;
+    }
+
+    .kor_logo {
+        float: right;
+        width: 220px;
+        height: 200px;
+    }
+
+    .kor_link {
+        padding: 70px, 15px;
+        width: 112px;
+        height: 37px;
+        padding-left: 3px;
+        border: 2px solid orange;
+        background-color: orange;
+        border-radius: 12px;
+        margin-top: 60px;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .but_img {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    .osnova{
+        height: 60vh;
+    }
+
+    .project_inner {
+     
+        margin-top: 20px;
+        width: 95px;
+        height: 95px;
+        border: 2px solid red;
+        border-radius: 12px;
+        background-color: black;
+        box-shadow: 0px 5px 5px 0px orange;
+        padding-right: 10px;
+    }
+
+    .project_innerposl {
+
+        margin-top: 20px;
+        width: 95px;
+        height: 95px;
+        border: 2px solid red;
+        border-radius: 12px;
+        background-color: black;
+        box-shadow: 0px 5px 5px 0px orange;
+    }
+
+    .project_but {
+        display: inline-block;
+        margin-left: 4px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .but2_img {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    .project_but2 {
+        display: inline-block;
+        margin-left: 2px;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .but3_img {
+        display: inline-block;
+        width: 60px;
+        height: 45px;
+        margin-left: 7px;
+        margin-top: 2px;
+    }
+
+    .project_but3 {
+        display: inline-block;
+        margin-left: 10px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .but4_img {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    .project_but4 {
+        display: inline-block;
+        margin-left: 10px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .but5_img {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    .project_but5 {
+        display: inline-block;
+        margin-left: 4px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .but6_img {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    .project_but6 {
+        display: inline-block;
+        margin-left: 4px;
+        color: white;
+        font-size: 10px;
+    }
+
+
+    .proj__text {
+        margin: 0 auto;
+        padding-top: 100px;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    h1.proj__text::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding-top: 30px;
+        border-bottom: 4px solid orange;
+    }
+
+    .cons-form {
+        opacity: 0;
+        position: absolute;
+        margin-left: 50px;
+        width: 290px;
+        height: 180px;
+        margin-top: 300px;
+        background: #f03e53;
+        transform: translateX(250%);
+        transition: all .5s;
+        border-radius: 20px;
+        border: 3px solid orange;
+    }
+
+    .zakaz-form {
+        opacity: 0;
+        position: absolute;
+        margin-left: 50px;
+        width: 290px;
+        height: 180px;
+        margin-top: 300px;
+        background: #49c766;
+        transform: translateX(-250%);
+        transition: all .5s;
+        border-radius: 20px;
+        border: 3px solid orange;
+    }
+
+    button {
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 290px;
+        cursor: pointer;
+        background: black;
+    }
+
+    .start-anim {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .vlevo__button{
+        transform: rotate(180deg);
+        width: 30px;
+        height: 30px;
+    }
+
+    .vpravo__button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .scrollup {
+        width: 70px;
+        height: 70px;
+        opacity: 0.3;
+       position: fixed;
+        bottom: 50px;
+        right: 100px;
+        display: none;
+        text-indent: -9999px;
+        background: url(../images/icon_top.png) no-repeat;
+    }
+
+}
+
