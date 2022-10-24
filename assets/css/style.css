@@ -813,13 +813,13 @@ h1.proj__text::after{
 
     .vlevo__button{
         transform: rotate(180deg);
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .vpravo__button{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .scrollup {
