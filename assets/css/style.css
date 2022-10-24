@@ -596,7 +596,7 @@ h1.proj__text::after{
     transform: rotate(180deg)
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:430px){
 
     .logo {
         
