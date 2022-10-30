@@ -194,7 +194,7 @@ h6 {
     right: 0;
 
     z-index: 1000;
-     background-color: #262626;;
+     background-color: rgb(27, 22, 20);
 
 }
 
@@ -254,7 +254,17 @@ h6 {
 
 .osnova {
     width: 100%;
-    height: 100vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+
+    /* background: url("../images/osnov_in.jpg") center no-repeat; */
+    background-color: black;
+    justify-content: space-between;
+}
+.osnova2 {
+    width: 100%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
 
@@ -264,7 +274,7 @@ h6 {
 }
 
 .osnova_inner {
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -326,10 +336,10 @@ h6 {
 }
 
 .but3_img {
-    width: 98px;
+    width: 115px;
     height: 98px;
     display: inline-block;
-    margin-left: 7px;
+    margin-left: 8px;
     margin-top: 2px;
 }
 
@@ -552,7 +562,8 @@ button {
     transform: translateX(-250%);
     transition: all .5s;
     border-radius: 20px;
-    border: 3px solid orange;
+    border: 3px solid black;
+    box-shadow: 0px 0px 5px 5px blue;
 }
 
 .cons-form {
@@ -562,11 +573,12 @@ button {
     width: 600px;
     height: 400px;
     margin-top: 300px;
-    background: #f03e53;
+    background: #000000;
     transform: translateX(250%);
     transition: all .5s;
     border-radius: 20px;
-    border: 3px solid orange;
+    border: 3px solid black;
+    box-shadow: 0px 0px 5px 5px blue;
 }
 
 .start-anim {
@@ -595,6 +607,32 @@ h1.proj__text::after{
 .vlevo__button{
     transform: rotate(180deg)
 }
+
+.bot_telega{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.text_bot{
+    color: white;
+    font-size: 16px;
+   margin-top: 90px;
+    
+}
+
+.text_info2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
 
 @media screen and (max-width:420px){
 
@@ -643,7 +681,11 @@ h1.proj__text::after{
     }
 
     .osnova{
-        height: 60vh;
+        height: 20vh;
+    }
+
+    .osnova2{
+        height: 20vh;
     }
 
     .project_inner {
@@ -813,13 +855,13 @@ h1.proj__text::after{
 
     .vlevo__button{
         transform: rotate(180deg);
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 
     .vpravo__button{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 
     .scrollup {
