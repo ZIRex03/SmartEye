@@ -12,6 +12,8 @@ $mail->CharSet = 'UTF-8';
 $mail->setLanguage('ru', 'phpmailer/language/');
 $mail->IsHTML(true);
 
+$mail->SMTPDebug = 2;
+
 //От кого письмо
 $mail->setFrom('hack81644@gmail.com', 'АСУшники из МАДИ');
 //Кому отправить
