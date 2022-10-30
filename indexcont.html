@@ -2,15 +2,52 @@
 <html lang="en">
 <html lang="ru">
 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+    
+            $('.scrollup').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+    
+        });
+    
+    </script>
+    
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(function () {
+                $('.btn').click(function () {
+                    $('.switch-form').toggleClass('start-anim');
+    
+                });
+            });
+        });
+    
+    </script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/logoza2.ru.png">
     <link rel="stylesheet" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <title>FindPhoto</title>
 </head>
+
+<a href="#" class="scrollup">Наверх</a>
 
 <body>
 
@@ -22,8 +59,8 @@
                 <a class="nazad__text" href="index.html">На главную</a>
 
                 <nav class="nav">
-                    <a class="nav__link" href="#">О проекте</a>
-                    <a class="nav__link" href="#">Контакты</a>
+                    <a class="nav__link" href="project.html">О проекте</a>
+                    <a class="nav__link" href="indexcont.html">Контакты</a>
                 </nav>
 
             </div>
