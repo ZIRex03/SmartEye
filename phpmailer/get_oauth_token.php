@@ -160,10 +160,3 @@ if (!isset($_GET['code'])) {
     //Use this to get a new access token if the old one expires
     echo 'Refresh Token: ', $token->getRefreshToken();
 }
-
-public function allowed_http_origins( $origins ) {
-		if ( defined( 'AWSM_JOBS_REST_IS_LOCAL' ) && AWSM_JOBS_REST_IS_LOCAL ) {
-			$origins[] = 'http://localhost:3000';
-		}
-		return $origins;
-	
