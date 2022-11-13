@@ -4,7 +4,7 @@
     opacity: 0.3;
     position: fixed;
     bottom: 50px;
-    right: 100px;
+    left: 10px;
     display: none;
     text-indent: -9999px;
     background: url('../images/icon_top.png') no-repeat;
@@ -259,5 +259,89 @@ h2::after{
     margin-left: 50px;
 }
 
+@media screen and (max-width:420px){
 
+    h2::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding-top: 30px;
+        border-bottom: 4px solid orange;
+    }
+
+    .intro__osn {
+        margin-top: 60px;
+        width: 100%;
+        height: 380vh;
+        display: flex;
+        background-color: black;
+        -webkit-background-size: cover;
+        background-size: 100%;
+    
+    }
+
+    .osnov_text {
+        margin-top: 80px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .main__info {
+        font-size: 15px;
+        color: white;
+    }
+
+    .osnov_text2 {
+        margin-top: 90px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .main__info2 {
+        font-size: 15px;
+        color: white;
+    }
+
+    .shablon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shablon_main {
+        width: 250px;
+        height: 150px;
+        margin-left: 10px;
+    }
+
+    .shablon2 {
+        margin-top: 20px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .shablon_main2 {
+        width: 250px;
+        height: 150px;
+        margin-left: 150px;
+    }
+
+    .shablon3 {
+        margin-top: 50px;
+        width: 350px;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .shablon_main3 {
+        width: 350px;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+}
 
