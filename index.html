@@ -4,6 +4,11 @@
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
+<!-- FingerPrint JS-->
+<script src="chatbot/chatbot.js"></script>
+<!-- ChatBot JS -->
+<script src="chatbot/chatbot.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function () {
 
@@ -27,7 +32,7 @@
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         $(function () {
-            $('.btn').click(function () {
+            $('.button').click(function () {
                 $('.switch-form').toggleClass('start-anim');
 
             });
@@ -42,6 +47,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/logoza2.ru.png"><!-- 32×32 -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="chatbot/chatbot.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <title>SmartEye</title>
@@ -83,7 +89,7 @@
                 </h1>
 
                 <br>
-                <p class="kor_text">Здесь мы занимаемся поиском различных 
+                <p class="kor_text">Здесь мы занимаемся поиском различных
                     <br>
                     объектов, которые находятся на фото
                 </p>
@@ -194,14 +200,14 @@
         <h1 class="proj__text">Наш проект</h1>
 
 
-        <div class="zakaz-form switch-form"><button class="btn cons-button"><img class="vlevo__button"
+        <div class="zakaz-form switch-form"><button class="button cons-button"><img class="vlevo__button"
                     src="./assets/images/vlevo2.jpg"></button>
 
             <p class="text_info2">Информации пока здесь нет, потому что программисты думают</p>
 
 
         </div>
-        <div class="cons-form switch-form start-anim"><button class="btn zakaz-button"><img class="vpravo__button"
+        <div class="cons-form switch-form start-anim"><button class="button zakaz-button"><img class="vpravo__button"
                     src="./assets/images/vlevo2.jpg"></button>
 
             <p class="text_bot">
@@ -218,6 +224,10 @@
 
     </div>
 
+    <div class="chatbot__btn">
+        <div class="chatbot__tooltip d-none">Есть вопрос?</div>
+    </div>
+
 </body>
 
 <script>
@@ -229,5 +239,7 @@
         image.style.display = "block";
     });
 </script>
+
+<script src="assets/js/bot.js"></script>
 
 </html>
