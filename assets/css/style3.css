@@ -100,10 +100,9 @@ h2::after{
     border: 3px, solid, black;
     font-size: 14px;
     font-weight: 700;
-    margin-left: 0px;
     position: relative;
     margin-top: 4px;
-    margin-right: 878px;
+    margin-left: -880px;
     text-decoration: none;
     color: white;
 }
@@ -261,6 +260,11 @@ h2::after{
 
 @media screen and (max-width:420px){
 
+    /* * {
+        border: 1px solid red;
+        box-sizing: border-box;
+    } */
+
     h2::after{
         content: "";
         display: block;
@@ -268,6 +272,24 @@ h2::after{
         width: 150px;
         padding-top: 30px;
         border-bottom: 4px solid orange;
+    }
+
+    .nazad__text {
+        display: inline-block;
+        padding: 6px 6px;
+        border: 3px, solid, black;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: -90px;
+        position: relative;
+        margin-top: 4px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav {
+        font-size: 12px;
+        text-transform: uppercase;
     }
 
     .intro__osn {
@@ -327,7 +349,7 @@ h2::after{
     .shablon_main2 {
         width: 250px;
         height: 150px;
-        margin-left: 150px;
+        margin-left: 120px;
     }
 
     .shablon3 {

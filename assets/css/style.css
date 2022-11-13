@@ -669,6 +669,8 @@ h1.proj__text::after{
 
 @media screen and (max-width:420px){
 
+   
+
     .scrollup {
         width: 70px;
         height: 70px;
@@ -711,10 +713,11 @@ h1.proj__text::after{
 
     .kor_logo {
         float: right;
-        width: 140px;
+        width: 160px;
         height: 100px;
         margin-top: -10px;
-
+        margin-right: 20px;
+        box-shadow: 2px 2px 2px 2px blue;
     }
 
     .kor_link {
