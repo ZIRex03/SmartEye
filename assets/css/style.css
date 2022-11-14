@@ -687,7 +687,7 @@ h1.proj__text::after {
         opacity: 0.3;
         position: fixed;
         bottom: 50px;
-        left: 10px;
+        margin-left: 10px;
         display: none;
         text-indent: -9999px;
         background: url(../images/icon_top.png) no-repeat;
@@ -986,18 +986,6 @@ h1.proj__text::after {
         margin-left: 280px;
         width: 15px;
         height: 15px;
-    }
-
-    .scrollup {
-        width: 70px;
-        height: 70px;
-        opacity: 0.3;
-        position: fixed;
-        bottom: 50px;
-        right: 100px;
-        display: none;
-        text-indent: -9999px;
-        background: url(../images/icon_top.png) no-repeat;
     }
 
 }

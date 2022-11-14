@@ -4,7 +4,7 @@
     opacity: 0.3;
     position: fixed;
     bottom: 50px;
-    left: 10px;
+    margin-left: 100px;
     display: none;
     text-indent: -9999px;
     background: url('../images/icon_top.png') no-repeat;
@@ -265,6 +265,18 @@ h2::after{
         box-sizing: border-box;
     } */
 
+    .scrollup {
+        width: 70px;
+        height: 70px;
+        opacity: 0.3;
+        position: fixed;
+        bottom: 50px;
+        margin-left: 10px;
+        display: none;
+        text-indent: -9999px;
+        background: url(../images/icon_top.png) no-repeat;
+    }
+
     h2::after{
         content: "";
         display: block;
@@ -349,7 +361,7 @@ h2::after{
     .shablon_main2 {
         width: 250px;
         height: 150px;
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .shablon3 {

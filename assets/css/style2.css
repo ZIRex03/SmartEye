@@ -4,7 +4,7 @@
     opacity: 0.3;
     position: fixed;
     bottom: 50px;
-    right: 100px;
+    margin-left: 100px;
     display: none;
     text-indent: -9999px;
     background: url('../images/icon_top.png') no-repeat;
@@ -487,10 +487,10 @@ textarea.form__input {
         opacity: 0.3;
         position: fixed;
         bottom: 50px;
-        right: 10px;
+        margin-left: 10px;
         display: none;
         text-indent: -9999px;
-        background: url('../images/icon_top.png') no-repeat;
+        background: url(../images/icon_top.png) no-repeat;
     }
 
     .form__title1 {
