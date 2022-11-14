@@ -420,6 +420,8 @@ h6 {
 }
 
 .project_but5 {
+    cursor: pointer;
+    text-decoration: none;
     display: inline-block;
     margin-left: 20px;
     color: white;
@@ -677,7 +679,7 @@ h1.proj__text::after {
 }
 
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:397px) {
 
 
 
@@ -771,8 +773,8 @@ h1.proj__text::after {
     .project_inner {
 
         margin-top: 20px;
-        width: 95px;
-        height: 95px;
+        width: 91px;
+        height: 91px;
         border: 2px solid red;
         border-radius: 12px;
         background-color: black;
@@ -783,8 +785,8 @@ h1.proj__text::after {
     .project_innerposl {
 
         margin-top: 20px;
-        width: 95px;
-        height: 95px;
+        width: 91px;
+        height: 91px;
         border: 2px solid red;
         border-radius: 12px;
         background-color: black;
