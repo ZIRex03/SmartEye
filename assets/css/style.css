@@ -842,8 +842,8 @@ h1.proj__text::after {
 
     .but3_img {
         display: inline-block;
-        width: 205px;
-        height: 155px;
+        width: 125px;
+        height: 75px;
         margin-left: 2px;
         margin-top: -100px;
         background: url("../images/face1.gif");
