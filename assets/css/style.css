@@ -83,9 +83,9 @@ h6 {
     float: right;
     width: 500px;
     height: 220px;
-    border: 2px solid rgb(229, 65, 19);
+    border: 2px solid rgb(148, 19, 229);
     border-radius: 15px;
-    box-shadow: 4px 4px 4px 4px blue;
+    /* box-shadow: 2px 2px 2px 3px blue; */
 }
 
 .kor_link {
