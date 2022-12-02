@@ -982,7 +982,7 @@ h1.proj__text::after {
     }
 
     button {
-        position: absolute;
+        
         margin-top: 10px;
         cursor: pointer;
         background: black;
