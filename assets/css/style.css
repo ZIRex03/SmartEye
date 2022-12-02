@@ -573,12 +573,11 @@ h6 {
     background-color: black;
 }
 
-button {
-
+/* button {
     position: absolute;
     margin-left: 10px;
     background: black;
-}
+} */
 
 .vlevo__button {
     cursor: pointer;
