@@ -281,9 +281,9 @@ h6 {
 
 .osnova2 {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     /* background: url("../images/osnov_in.jpg") center no-repeat; */
     background-color: black;
@@ -293,6 +293,7 @@ h6 {
 .osnova_inner {
     margin-top: -750px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -329,12 +330,15 @@ h6 {
     display: inline-block;
     margin-left: 15px;
     margin-top: 2px;
+    cursor: pointer;
 }
 
 .project_but {
     display: inline-block;
     margin-left: 17px;
     color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .photo__button {
@@ -370,6 +374,7 @@ h6 {
     margin-left: 15px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .but3_img {
@@ -377,7 +382,6 @@ h6 {
     height: 550px;
     margin-left: 8px;
     margin-top: 450px;
-    cursor: pointer;
 }
 
 .project_but3 {
@@ -758,6 +762,7 @@ h1.proj__text::after {
         flex-direction: column;
         margin-left: 15px;
         margin-top: 2px;
+        cursor: pointer;
     }
 
     .osnova {
@@ -765,7 +770,7 @@ h1.proj__text::after {
     }
 
     .osnova2 {
-        height: 20vh;
+        height: 40vh;
     }
     .osnova_inner {
         margin-top: 20px;
@@ -815,6 +820,8 @@ h1.proj__text::after {
         margin-left: 4px;
         color: white;
         font-size: 10px;
+        text-decoration: none;
+        cursor: pointer;
     }
 
     .but2_img {
@@ -838,7 +845,8 @@ h1.proj__text::after {
         width: 205px;
         height: 155px;
         margin-left: 2px;
-        margin-top: -102px;
+        margin-top: -100px;
+        background: url("../images/face1.gif");
     }
 
     .project_but3 {
